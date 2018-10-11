@@ -1,1 +1,3 @@
-function logS
+function shout(string) {
+  
+}
