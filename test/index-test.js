@@ -4,7 +4,8 @@ function whisper(string) {
 }
 
 function logShout(string) {
-  return console.log(string.toUpperCase());
+  string = string.toUpperCase();
+  console.log(string);
 }
 
 describe('logShout(string)', function() {
